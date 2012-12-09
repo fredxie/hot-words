@@ -1,0 +1,12 @@
+{
+  "name": "The Recent Hot Words",
+  "version": "1.0",
+  "description": "Reads your history, and shows the top ten hot words you recently interested.",
+  "options_page": "options.html",
+  "permissions": ["history", "tabs", "storage"],
+  "browser_action": {
+    "default_popup": "RecentHotWords.html",
+    "default_icon": "duke.png"
+  },
+  "manifest_version": 2
+}

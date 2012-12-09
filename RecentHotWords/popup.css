@@ -1,0 +1,19 @@
+﻿ul {
+   width: 200px;
+}
+
+li {
+   border-style:hidden;
+   border-color:none;
+   position:relative;    
+}
+
+li span {
+    background-image:url('http://www.kodlab.com/Image/delete.png');
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    position:absolute;
+    top:2px;
+    right:2px
+}​
